@@ -1,0 +1,6 @@
+--log into az
+az login
+
+--push arm template to dev group
+az deployment group create --resource-group dev --template-file .\main.bicep
+
